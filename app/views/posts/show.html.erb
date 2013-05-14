@@ -1,24 +1,24 @@
 <p id="notice"><%= notice %></p>
  
 <p>
-  <b>Name:</b>
+  <b class = "title">Name:</b>
   <%= @post.name %>
 </p>
  
 <p>
-  <b>Title:</b>
+  <b class = "title">Title:</b>
   <%= @post.title %>
 </p>
  
 <p>
-  <b>Content:</b>
+  <b class = "title">Content:</b>
   <%= @post.content %>
 </p>
  
-<h2>Comments</h2>
+<h2 class = "title">Comments</h2>
 <%= render @post.comments %>
  
-<h2>Add a comment:</h2>
+<h2 class = "title">Add a comment:</h2>
 <%= render "comments/form" %>
  
 <br />
