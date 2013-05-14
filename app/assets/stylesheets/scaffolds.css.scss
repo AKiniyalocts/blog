@@ -1,9 +1,10 @@
 body {
   background-color: #fff;
-  color: #333;
+  color: #0099CC;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+
 }
 
 p, ol, ul, td {
@@ -19,13 +20,13 @@ pre {
 }
 
 a {
-  color: #000;
+  color: #0000FF;
   &:visited {
     color: #666;
   }
   &:hover {
     color: #fff;
-    background-color: #000;
+    background-color: #0000FF;
   }
 }
 
@@ -67,3 +68,4 @@ div {
     list-style: square;
   }
 }
+
