@@ -1,7 +1,5 @@
 class PostsController < ApplicationController
-  http_basic_authenticate_with :name => "Shirwa", :password => "root", :except => [:new,:index, :show]
-  # GET /posts
-  # GET /posts.json
+  before_filter :check_logged_in, :only => [:edit, :update, :destroy]
   def index
     @posts = Post.all
 
@@ -81,4 +79,10 @@ class PostsController < ApplicationController
       format.json { head :no_content }
     end
   end
+  private
+  def check_logged_in
+    authenticate_or_request_with_http_basic("Ads") do |username, password|
+            username == "shirwa" && password == "root"
+    end
+end
 end
