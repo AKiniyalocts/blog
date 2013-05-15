@@ -1,11 +1,13 @@
 Blog::Application.routes.draw do
 
+  get "contact/index"
+
   resources :posts do
     resources :comments
   end
 
   get "home/index"
-
+match '/contact' => 'contact#index', :as => :contact
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
