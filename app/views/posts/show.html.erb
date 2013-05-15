@@ -8,10 +8,17 @@
   <dd><%= @post.name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>
   <dd><%= @post.title %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:content) %>:</strong></dt>
-  <dd><%= @post.content %></dd>
   <dt><strong><%= model_class.human_attribute_name(:topic) %>:</strong></dt>
   <dd><%= @post.topic %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:content) %>:</strong></dt>
+  <dd><%= @post.content %></dd>
+  
+  <hr>
+<h2 class = "title">Comments</h2>
+<%= render @post.comments %>
+ 
+<h2 class = "title">Add a comment:</h2>
+<%= render "comments/form" %>
 </dl>
 
 <div class="form-actions">
