@@ -20,4 +20,4 @@ Please be patient as it may take some time to pick up certain features.
 3. Go to http://localhost:3000/ and you'll see:
        "Welcome to This Awesome Blog"
 
-4. Contact us or follow us <a href = http://www.twitter.com/team_shirwa>here</a>
+4. Contact us or follow me @team_shirwa
