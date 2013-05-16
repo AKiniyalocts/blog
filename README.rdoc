@@ -12,10 +12,10 @@ Please be patient as it may take some time to pick up certain features.
 == Getting Started
 
 1. At the command prompt, clone this repo:
-       <tt>git clone https://github.com/ShirwaM/blog.git</tt> 
+       git clone https://github.com/ShirwaM/blog.git 
 
 2. Change directory to <tt>blog</tt> and start the web server:
-       <tt>cd blog; rails server</tt> (run with --help for options)
+       cd blog; rails server (run with --help for options)
 
 3. Go to http://localhost:3000/ and you'll see:
        "Welcome to This Awesome Blog"
