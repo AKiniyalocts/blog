@@ -1,5 +1,7 @@
 Blog::Application.routes.draw do
 
+  get "users/new"
+
   get "contact/index"
 
   resources :posts do
@@ -7,7 +9,9 @@ Blog::Application.routes.draw do
   end
 
   get "home/index"
-match '/contact' => 'contact#index', :as => :contact
+  match '/contact' => 'contact#index', :as => :contact
+
+  resources :users
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
