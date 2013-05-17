@@ -8,6 +8,12 @@ by providing a means of communication via blogs.
 We are a group of two guys who are starting out on Rails and Web developement in general
 Please be patient as it may take some time to pick up certain features.
 
+== Before starting
+1. Install Node.js if you dont already have it. The instructions can be found at
+https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+2.Next step would be to install Ruby/Ruby on Rails. If your on Linux or Mac, install it via rvm
+http://www.andrehonsberg.com/article/install-rvm-ubuntu-1204-linux-for-ruby-193
+3.You 
 
 == Getting Started
 
